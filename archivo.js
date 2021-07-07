@@ -9,7 +9,7 @@ class Articulo{// defino un objeto el cual es llamado Articulo
     }
 
     hablar(){
-        console.log("su producto es: " + this.nombre + " y su precio es: " + this.precio);
+        console.log("su producto es: " + this.nombre + " y su precio con impuesto es: " + this.precio);
     }
 }
 
